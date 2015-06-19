@@ -10,7 +10,7 @@ puppet module install razorsedge-network
 SCRIPT
 
 Vagrant.configure("2") do |config|
-  config.vm.box = "puppetlabs/centos-7.0-64-puppet"
+  config.vm.box = "puppetlabs/centos-6.6-64-puppet"
 # BRIDGED NETWORK: config.vm.network "public_network"
 # NAT NETWORK:
   config.vm.network "forwarded_port", guest: 80, host: 7081
