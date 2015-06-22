@@ -28,7 +28,7 @@ Path of manifest: /vagrant/modules/mtu/manifest/init.pp
 * `vagrant ssh`: enter into the guest OS
 * get root privileges: `sudo su`
 * check that eth0 has default value of MTU (eg: 1500)
-* puppet apply -v -e "include mtu"`
+* `puppet apply -v -e "include mtu"`
 * check that eth0 has the new value of MTU, specified in the manifest file (eg: 9000)
 
 Note:
