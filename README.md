@@ -1,6 +1,6 @@
 # Puppet Demo (Red Hat)
 
-Some Puppet demo in Red Hat based environment. 
+Some Puppet demos in Red Hat based environment. 
 This demo uses Vagrant in order to setup a ready to use development environment.
 
 # Author
